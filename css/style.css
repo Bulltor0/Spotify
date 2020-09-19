@@ -1,0 +1,203 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  font: "Montserrat-black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font: "Montserrat-Bold";
+}
+
+a {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+  color: white;
+}
+
+.container-fluid {
+  padding: 0 10%;
+}
+
+#title {
+  background-color: #614822;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+/* navigation bar */
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1.5% 10%;
+}
+
+.logo {
+  width: 36px;
+}
+
+.navbar {}
+
+.nav-item {
+  padding: 0 11px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+.profileimg {
+  border-radius: 100%;
+}
+
+#premiumadd {
+  text-align: center;
+  background-color: #f2ba58;
+}
+
+.display-2 {
+  font-weight: 1500;
+  color: white;
+  margin: 10% 7% 0;
+  letter-spacing: -0.04em;
+  font-family: Circular, Helvetica, Arial, sans-serif, IosFix;
+}
+
+.Premiumbtn {
+  border-radius: 50px;
+  width: 20rem;
+  margin: 3% 7% 15%;
+  color: #fff;
+  background-color: #1db954;
+  border-color: #1db954;
+}
+
+.copyright {
+  margin: 3% 3%;
+  color: white;
+  font-size: 10%;
+}
+
+.cplink {
+  color: white;
+}
+
+#webplayer {
+  margin: 3% 5%;
+  text-align: center;
+  color: black;
+  background-color: white;
+}
+
+.launchbtn {
+  border-radius: 50px;
+  font-weight: bold;
+  margin: 3% 7% 7%;
+  width: 20rem;
+  border-color: #686b6e;
+  border-style: solid;
+  border-width: medium;
+}
+
+#description {
+  padding: 80px 0 50px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.navbar-brand-2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#end {
+  background-color: black;
+  color: white;
+}
+
+@media (max-width:1028px) {
+  body {
+    text-align: center;
+  }
+
+  #title {
+    background-color: black;
+    color: #fff;
+  }
+
+  .logo {
+    width: 26px;
+  }
+
+  h1 {
+    font: "Montserrat-black";
+    font-size: 3.5rem;
+    line-height: 1;
+    margin: 25px;
+  }
+
+  .display-2 {
+    font-weight: 1200;
+    color: white;
+    margin: 10% 7% 0;
+    letter-spacing: -0.04em;
+    font-family: Circular, Helvetica, Arial, sans-serif, IosFix;
+    font-size: 70px;
+  }
+
+  .navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1.5% 0;
+  }
+
+  .copyright {
+    font-size: 20%;
+  }
+
+  .nav-item {
+    padding: 11px 11px;
+    font-size: 4rem;
+  }
+
+  .nav-link {
+    font-size: 2rem;
+  }
+
+  .profileimg {
+    width: 70px;
+    padding-bottom: 10px;
+  }
+
+  .Premiumbtn {
+    margin-top: 50px;
+    width: 15rem;
+    font-size: 2rem;
+  }
+
+  h5 {
+    font-size: 2rem;
+    margin: 20px
+  }
+
+  .launchbtn {
+    width: 15rem;
+    font-weight: bold;
+    margin: 20px;
+  }
+
+  #description h6 {
+    font-size: 4rem;
+  }
+}
